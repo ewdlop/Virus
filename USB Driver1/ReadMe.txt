@@ -53,3 +53,6 @@ Related WDK samples and what they demonstrate:
     usbsamp - isochronous transfers
 
 /////////////////////////////////////////////////////////////////////////////
+
+
+how to build this?
