@@ -63,3 +63,6 @@ Understanding these malware types is crucial for implementing effective cybersec
 - [Millions of Android users warned over FAKE lock screen that steals their phone's PIN and raids bank accounts](https://www.thesun.ie/tech/14042466/android-users-warned-fake-lock-screen/)
 
 **Prompt Generation Time**: 2024-11-17 19:28:37 EST 
+
+
+https://www.youtube.com/watch?v=peRx3fLEKgw&list=RDpeRx3fLEKgw&index=2
