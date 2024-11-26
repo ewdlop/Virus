@@ -27,20 +27,6 @@ class AESEncryption
 		Console.WriteLine("Decrypted Message: " + decryptedMessage);
 
 	}
-
-	static class RandomIVGenerator
-	{
-
-		public static byte[] GenerateRandomBytes(int size)
-		{
-			byte[] randomBytes = new byte[size];
-			using (var rng = RandomNumberGenerator.Create())
-			{
-				rng.GetBytes(randomBytes);
-			}
-			return randomBytes;
-		}
-	}
 	
 	public byte[] ToIV(string hexString)
 	{
@@ -92,6 +78,20 @@ class AESEncryption
 				}
 			}
 		}
+	}
+}
+
+static class RandomIVGenerator
+{
+
+	public static byte[] GenerateRandomBytes(int size)
+	{
+		byte[] randomBytes = new byte[size];
+		using (var rng = RandomNumberGenerator.Create())
+		{
+			rng.GetBytes(randomBytes);
+		}
+		return randomBytes;
 	}
 }
 
