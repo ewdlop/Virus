@@ -9,6 +9,7 @@ Gamecracks.
 Keygens.
 Poor performance programs
 Reverse shell
+API key reverse engineering
 
 Malicious software, commonly known as malware, encompasses various types designed to harm or exploit computer systems. Beyond viruses and trojans, other prevalent forms include:
 
