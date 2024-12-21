@@ -1,9 +1,4 @@
-﻿using System.Collections;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Numerics;
-
-namespace ClassLibrary1;
+﻿namespace ClassLibrary1;
 
 public static partial class EnumerableHelper
 {

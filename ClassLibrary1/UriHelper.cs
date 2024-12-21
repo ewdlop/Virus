@@ -1,4 +1,6 @@
-﻿namespace ClassLibrary1;
+﻿using System.IO.Enumeration;
+
+namespace ClassLibrary1;
 
 public static partial class UriHelper
 {
