@@ -166,4 +166,22 @@ Even if a tool is widely used, always question its origin and purpose. Trust sho
 
 **Prompt Generation Time**: 2024-11-17 19:28:37 EST 
 
+## CloudStrike Ring 0 Bug 
+
+In July 2024, CrowdStrike, a prominent cybersecurity firm, released a faulty update to its Falcon Sensor software, which operates at Ring 0 (kernel level) on Microsoft Windows systems. This update led to widespread system crashes, commonly known as the "Blue Screen of Death" (BSOD), affecting approximately 8.5 million devices worldwide. 
+
+Operating at Ring 0 grants software unrestricted access to all hardware and memory, essential for security tools to monitor and protect systems effectively. However, any malfunction at this level can have catastrophic consequences, as seen in this incident. 
+
+The update's flaw caused memory corruption by attempting to access invalid memory addresses, resulting in immediate system failures upon installation. The global impact was significant, disrupting operations across various sectors, including airlines, banks, hospitals, and emergency services. 
+
+CrowdStrike promptly acknowledged the issue, with CEO George Kurtz issuing a public apology and clarifying that the disruption was due to a software bug, not a cyberattack. A fix was rapidly deployed; however, due to the scale of the problem, recovery efforts extended over several weeks for some users. 
+
+This incident has reignited discussions about the risks associated with granting third-party applications kernel-level access. Alternatives, such as utilizing technologies like Extended Berkeley Packet Filter (eBPF), which allow necessary system monitoring without full kernel access, are being considered to enhance system stability and security. 
+
+ Here are the source links for more information about the CrowdStrike Ring 0 bug:
+
+1. [How the CrowdStrike Tech Outage Reignited a Battle Over the Heart of Microsoft Systems](https://www.wsj.com/articles/how-the-crowdstrike-tech-outage-reignited-a-battle-over-the-heart-of-microsoft-systems-72b62c90?utm_source=chatgpt.com)  
+2. [CrowdStrike shares plunge more than 10% as global IT outage prompts mass chaos: 'A major black eye'](https://nypost.com/2024/07/19/business/cloudstrike-shares-plunge-10-as-global-it-outage-prompts-mass-chaos-a-major-black-eye/?utm_source=chatgpt.com)  
+3. [The 78 minutes that took down millions of Windows machines](https://www.theverge.com/2024/7/23/24204196/crowdstrike-windows-bsod-faulty-update-microsoft-responses?utm_source=chatgpt.com)  
+
 <https://www.youtube.com/watch?v=peRx3fLEKgw&list=RDpeRx3fLEKgw&index=2>
